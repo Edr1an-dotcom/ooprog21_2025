@@ -2,7 +2,7 @@ class DebugBox {
    public static void main(String[] args) {
 
       DebugBox box = new DebugBox(); 
-      box.showData(); // Call showData() without printing its return value
+      box.showData();
    }
 
    private int width;
@@ -30,4 +30,5 @@ class DebugBox {
                          "  Height: " + height + "  Volume: " + getVolume());
    }
 }
+
 
