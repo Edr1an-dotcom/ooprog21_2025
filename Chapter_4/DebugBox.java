@@ -1,9 +1,4 @@
 class DebugBox {
-   public static void main(String[] args) {
-      DebugBox box = new DebugBox(); 
-      box.showData();
-   }
-
    private int width;
    private int length;
    private int height;
@@ -29,6 +24,7 @@ class DebugBox {
                          "  Height: " + height + "  Volume: " + getVolume());
    }
 }
+
 
 
 
