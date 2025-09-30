@@ -1,11 +1,5 @@
  class DebugCircle
  {
-   public static void main (String [] args){
-      DebugCircle circle = new DebugCircle(5); 
-      System.out.println("Radius: " + circle.getRadius());
-      System.out.println("Diameter: " + circle.getDiameter());
-      System.out.println("Area: " + circle.getArea());
-   }
 
    private int radius;
    private int diameter;
